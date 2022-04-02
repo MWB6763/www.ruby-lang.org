@@ -1,7 +1,7 @@
 ---
-layout: page
-title: "Documentation"
-lang: en
+Layout: Page
+Title: "Documentation"
+Language: English
 ---
 
 Guides, tutorials, and reference material to help you learn more about Ruby
@@ -58,7 +58,7 @@ the [installation guide](installation/) for help on installing Ruby.
 [Ruby Core Reference][13]
 : Pulled straight from the source code using [RDoc][14], this reference
   work documents all of the core classes and modules (like String,
-  Array, Symbol, etc…).
+  Array, Symbol, etc&hellip;).
 
 [Ruby Standard Library Reference][15]
 : Also pulled from the source code using RDoc, this reference work
@@ -125,41 +125,41 @@ If you have questions about Ruby the
 
 
 [1]: https://try.ruby-lang.org/
-[2]: http://rubykoans.com/
+[2]: https://rubykoans.com/
 [5]: https://poignant.guide
-[7]: http://www.techotopia.com/index.php/Ruby_Essentials
-[8]: http://pine.fm/LearnToProgram/
-[9]: http://www.ruby-doc.org/docs/ProgrammingRuby/
-[10]: http://pragmaticprogrammer.com/titles/ruby/index.html
-[12]: http://en.wikibooks.org/wiki/Ruby_programming_language
-[13]: http://www.ruby-doc.org/core
+[7]: https://www.techotopia.com/index.php/Ruby_Essentials
+[8]: https://pine.fm/LearnToProgram/
+[9]: https://www.ruby-doc.org/docs/ProgrammingRuby/
+[10]: https://pragmaticprogrammer.com/titles/ruby/index.html
+[12]: https://en.wikibooks.org/wiki/Ruby_programming_language
+[13]: https://www.ruby-doc.org/core
 [14]: https://ruby.github.io/rdoc/
-[15]: http://www.ruby-doc.org/stdlib
-[extensions]: https://docs.ruby-lang.org/en/master/doc/extension_rdoc.html
-[16]: http://www.rubydoc.info/
-[17]: http://rubydocs.org/
-[18]: http://apidock.com/
+[15]: https://www.ruby-doc.org/stdlib
+[Extensions]: https://docs.ruby-lang.org/en/master/doc/extension_rdoc.html
+[16]: https://www.rubydoc.info/
+[17]: https://rubydocs.org/
+[18]: https://apidock.com/
 [rubyapi-org]: https://rubyapi.org/
-[19]: http://www.aptana.com/
-[20]: http://www.gnu.org/software/emacs/
-[21]: http://www.emacswiki.org/emacs/RubyMode
-[22]: http://rsense.github.io/
-[23]: http://www.geany.org/
-[24]: http://projects.gnome.org/gedit/screenshots.html
-[25]: http://www.vim.org/
+[19]: https://www.aptana.com/
+[20]: https://www.gnu.org/software/emacs/
+[21]: https://www.emacswiki.org/emacs/RubyMode
+[22]: https://rsense.github.io/
+[23]: https://www.geany.org/
+[24]: https://projects.gnome.org/gedit/screenshots.html
+[25]: https://www.vim.org/
 [26]: https://github.com/vim-ruby/vim-ruby
-[27]: http://www.jetbrains.com/ruby/
-[28]: http://www.scintilla.org/SciTE.html
-[29]: http://notepad-plus-plus.org/
-[30]: http://www.e-texteditor.com/
-[31]: http://www.sapphiresteel.com/
-[32]: http://macromates.com/
+[27]: https://www.jetbrains.com/ruby/
+[28]: https://www.scintilla.org/SciTE.html
+[29]: https://notepad-plus-plus.org/
+[30]: https://www.e-texteditor.com/
+[31]: https://www.sapphiresteel.com/
+[32]: https://macromates.com/
 [33]: https://www.barebones.com/products/bbedit/
-[34]: http://ruby-doc.org
+[34]: https://ruby-doc.org
 [36]: https://netbeans.org/
-[37]: http://www.sublimetext.com/
+[37]: https://www.sublimetext.com/
 [38]: https://learncodethehardway.org/ruby/
-[39]: http://kapeli.com/dash
+[39]: https://kapeli.com/dash
 [docs-rlo-en]: https://docs.ruby-lang.org/en/
-[atom]: https://atom.io/
-[vscode]: https://code.visualstudio.com/
+[Atom]: https://atom.io/
+[Visual Studio Code]: https://code.visualstudio.com/
