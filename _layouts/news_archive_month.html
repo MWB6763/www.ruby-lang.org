@@ -14,11 +14,11 @@ layout: default
   <div id="content">
     {% for post in page.posts %}
     <div class="post">
-      <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+      <h3><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h3>
 
       {{ post.excerpt | markdownify }}
 
-      <p class="post-link"><a href="{{ post.url }}">{{ locales.continue }}</a></p>
+      <p class="post-link"><a href="{{ post.url }}" title="{{ locales.continue }}">{{ locales.continue }}</a></p>
 
       <p class="post-info">{{ post.date | posted_by:post.author }}</p>
     </div>
@@ -27,7 +27,7 @@ layout: default
     {% capture year_string %}{{ page.year }}{% endcapture %}
 
     <p>
-      <a href="../">&lt;&lt; {{ locales.back_to_year | replace:'%Y',year_string }}</a>
+      <a href="../" title="&lt;&lt; {{ locales.back_to_year | replace:'%Y',year_string }}">&lt;&lt; {{ locales.back_to_year | replace:'%Y',year_string }}</a>
     </p>
   </div>
 </div>
