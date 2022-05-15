@@ -14,11 +14,11 @@ layout: default
   <div id="content">
     {% for post in page.posts %}
     <div class="post">
-      <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+      <h3><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h3>
 
       {{ post.excerpt | markdownify }}
 
-      <p class="post-link"><a href="{{ post.url }}">{{ locales.continue }}</a></p>
+      <p class="post-link"><a href="{{ post.url }}" title="{{ locales.continue }}">{{ locales.continue }}</a></p>
 
       <p class="post-info">{{ post.date | posted_by:post.author }}</p>
     </div>
@@ -34,7 +34,7 @@ layout: default
 
       <ul class="menu">
       {% for month in page.months %}
-      <li><a href="{{ month[0] }}/">{{ month[1] }}</a></li>
+      <li><a href="{{ month[0] }}/" title="{{ month[1] }}">{{ month[1] }}</a></li>
       {% endfor %}
       </ul>
     </div>
