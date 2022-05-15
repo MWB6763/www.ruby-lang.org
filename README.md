@@ -1,4 +1,4 @@
-www.ruby-lang.org
+ruby-lang.org
 =================
 
 [![Join the chat at https://gitter.im/ruby/www.ruby-lang.org](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/ruby/www.ruby-lang.org?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
@@ -8,7 +8,7 @@ www.ruby-lang.org
 This is the [Jekyll](http://www.jekyllrb.com/) source of
 the [www.ruby-lang.org](https://www.ruby-lang.org/) website.
 
-## How to Contribute?
+## How To Contribute?
 
 You can contribute by reporting errors or suggesting improvements.
 Just open an issue or pull request.
@@ -78,7 +78,7 @@ bundle exec jekyll serve --watch --future --incremental
 
 If your draft uses future date, you may want to use `--future` option.
 
-### Preview on Heroku
+### Preview On Heroku
 
 In case a build is not possible on your local machine
 or you want to test your changes under production conditions
@@ -129,4 +129,4 @@ bundle exec rake check:links   # check for 404's (needs a running local server)
 
 For more information see the [wiki][wiki].
 
-[wiki]: https://github.com/ruby/www.ruby-lang.org/wiki
+[Wiki]: https://github.com/ruby/www.ruby-lang.org/wiki
