@@ -33,7 +33,7 @@ layout: default
 
       <ul class="menu">
         {% for post in site.categories[page.lang] limit:5 %}
-        <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+        <li><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
         {% endfor %}
       </ul>
     </div>
@@ -45,7 +45,7 @@ layout: default
     {% endif %}
 
     <h3>{{ sidebar.syndicate.text }}</h3>
-    <p><a href="{{ sidebar.syndicate.recent_news.url }}">{{ sidebar.syndicate.recent_news.text }}</a></p>
+    <p><a href="{{ sidebar.syndicate.recent_news.url }}" title="{{ side.bar.syndicate.recent_news.text }}">{{ sidebar.syndicate.recent_news.text }}</a></p>
   </div>
 </div>
 <hr class="hidden-modern" />
