@@ -42,14 +42,14 @@
   <body{% if page.url == homepage_url %} id="home-page-layout"{% endif %}>
     <div id="header">
       <div id="header_content" class="container">
-        <a href="/{{ page.lang }}/">
+        <a href="/{{ page.lang }}/" title="{{ site.data.locales[page.lang] }}">
           <h1>{{ site.data.locales[page.lang].ruby }}</h1>
           <h2>{{ site.data.locales[page.lang].slogan }}</h2>
         </a>
 
         <div class="site-links">
           {% include sitelinks.html %}
-          <a href="#" class="menu selected">Menu</a>
+          <a href="#" class="menu selected" title="Menu">Menu</a>
         </div>
 
         <div id="search-box">
